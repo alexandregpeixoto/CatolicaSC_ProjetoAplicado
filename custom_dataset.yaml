@@ -8,13 +8,14 @@
 
 
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
-path: /home/max/Documents/yolov8/data/WindTurbines  # dataset root dir
-train: train  # train images (relative to 'path')
-val: valid  # val images (relative to 'path')
-test: test  # test images (relative to 'path')
+path: D:/Design/Google Drive/Pessoal/Educação/Católica de Santa Catarina - Pós-Graduação/10 - Projeto Aplicado em IA/Project/CatolicaSC_ProjetoAplicado/data  # dataset root dir
+train: train/images  # train images (relative to 'path')
+val: valid/images  # val images (relative to 'path')
+test: test/images  # test images (relative to 'path')
 
 # Classes
 names:
-  0: cable_tower
-  1: turbine
+  0: OlympicWeightliftingBumperPlate
+  1: Person
+  2: Barbell
 
