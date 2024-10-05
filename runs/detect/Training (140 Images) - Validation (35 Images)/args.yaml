@@ -14,14 +14,14 @@ device: null
 workers: 8
 project: D:\\Design\\Google Drive\\Pessoal\\Educação\\Católica de Santa Catarina -
   Pós-Graduação\\10 - Projeto Aplicado em IA\\Project\\CatolicaSC_ProjetoAplicado\\runs\\detect
-name: train
+name: train3
 exist_ok: false
 pretrained: true
 optimizer: auto
 verbose: true
 seed: 0
 deterministic: true
-single_cls: true
+single_cls: false
 rect: false
 cos_lr: false
 close_mosaic: 10
@@ -96,7 +96,7 @@ perspective: 0.0
 flipud: 0.0
 fliplr: 0.5
 bgr: 0.0
-mosaic: 1.0
+mosaic: 0.0
 mixup: 0.0
 copy_paste: 0.0
 auto_augment: randaugment
@@ -105,4 +105,4 @@ crop_fraction: 1.0
 cfg: null
 tracker: botsort.yaml
 save_dir: D:\Design\Google Drive\Pessoal\Educação\Católica de Santa Catarina - Pós-Graduação\10
-  - Projeto Aplicado em IA\Project\CatolicaSC_ProjetoAplicado\runs\detect\train
+  - Projeto Aplicado em IA\Project\CatolicaSC_ProjetoAplicado\runs\detect\train3
